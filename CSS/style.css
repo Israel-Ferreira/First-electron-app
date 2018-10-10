@@ -30,6 +30,10 @@ header{
     padding: 1px;
 }
 
+.head>h1{
+    margin: 1%;
+}
+
 .head-add{
     height: 50px;
     text-align: center;

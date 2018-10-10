@@ -22,10 +22,6 @@ ipcRenderer.on('item:add',(e,item) => {
     emptyList();
 })
 
-ipcRenderer.on('item:clear',() => {
-    ul.innerHTML = "";
-    emptyList();
-})
 
 window.addEventListener('load', e => emptyList());
 
