@@ -1,15 +1,15 @@
 {
   "name": "app-financeiro",
   "version": "1.0.0",
-  "description": "",
+  "description": "Meu primeiro projeto em electron",
   "main": "JS/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Electron","Node.js"],
+  "author": "Israel-Ferreira",
+  "license": "MIT",
   "dependencies": {
     "electron": "^3.0.3"
   }

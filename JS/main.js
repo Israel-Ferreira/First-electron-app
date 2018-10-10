@@ -12,6 +12,7 @@ process.env.NODE_ENV = "development";
 let closeApp = () => app.quit();
 
 
+
 app.on("ready",() => {
     mainWindow = new BrowserWindow({});
     mainWindow.loadURL(format(path.join(__dirname,'../index.html')));

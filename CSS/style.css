@@ -64,12 +64,36 @@ header{
     margin: 8px;
     height: 50px;
     border: none;
-    width: 120px;
     cursor: pointer;
+    color: #FFF;
+    box-shadow: 2px 5px rgb(18, 26, 41);
 }
 
 .btn-add{
-    color: #FFF;
     background-color: #0e8210;
-    box-shadow: 2px 5px rgb(18, 26, 41);
+    width: 120px;
+}
+
+.btn-remove{
+    background-color: #F23;
+    width: 90px;
+}
+
+.message{
+    margin: 8px;
+    font-size: 12px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list-item{
+    height: 90px;
+    color: #FFF;
+    border-radius: 8px;
+    box-shadow: 1px 2px 5px 2px rgb(9, 16, 29);
+    margin: 1%;
+    padding: 30px;
+    font-size: 16px;
 }
