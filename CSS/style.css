@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Ubuntu');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(33, 42, 59);
+    color: #FFF;
+}
+
+header{
+    background-color: rgb(18, 26, 41);
+    font-family: 'Lobster', cursive;
+    color: #FFF;
+    height: 12%;
+    padding: 1%;
+}
+
+.head{
+    height: 12%;
+    padding: 1px;
+}
+
+.head-add{
+    height: 50px;
+    text-align: center;
+}
+
+.container{
+    margin: 1% auto;
+    text-align: center;
+}
+
+.input-label{
+    margin: 1%;
+}
+
+.input-form{
+    border-bottom: 3px solid #FFF;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height: 40px;
+    width: 60%;
+    color: #FFF;
+    background-color: inherit;
+}
+
+
+.input-form:focus{
+    outline: none;
+}
+
+.btn{
+    margin: 8px;
+    height: 50px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+}
+
+.btn-add{
+    color: #FFF;
+    background-color: #0e8210;
+    box-shadow: 2px 5px rgb(18, 26, 41);
+}
