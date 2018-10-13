@@ -83,8 +83,11 @@ header{
     width: 90px;
 }
 
-.message{
+.message,.final-value{
     margin: 8px;
+}
+
+.message{
     font-size: 12px;
 }
 
@@ -100,4 +103,15 @@ header{
     margin: 1%;
     padding: 30px;
     font-size: 16px;
+}
+
+
+::-webkit-scrollbar{
+    background-color:rgb(54, 65, 87) ;
+    width: .8em;
+}
+
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-scrollbar-thumb {
+    background-color: rgb(9, 22, 48);
 }
